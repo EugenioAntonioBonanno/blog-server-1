@@ -8,7 +8,7 @@ gem "roda"
 gem "puma"
 
 gem "sequel"
-gem 'pg'
+gem "sqlite3"
 
 gem "slim"
 gem "pry"
@@ -21,7 +21,6 @@ group :development do
 end
 
 group :development, :test do
-  gem "sqlite3"
   gem "dotenv"
   gem "warning"
 end
